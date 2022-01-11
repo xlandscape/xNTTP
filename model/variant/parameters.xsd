@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="urn:xNonTargetTerrestrialPlants"
+        xmlns="urn:xNonTargetTerrestrialPlants"
+        elementFormDefault="qualified"
+>
+    <xsd:element name="Parameters">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Project">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:anyURI">
+                            <xsd:minLength value="3"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="SimID">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:minLength value="3"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
