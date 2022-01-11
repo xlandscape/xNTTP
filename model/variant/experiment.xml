@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Experiment>
+  <General>
+    <MCRunTemplate>$(_X3DIR_)/../../variant/mc.xml</MCRunTemplate>
+    <MCBaseDir>$(_EXP_BASE_DIR_)\$(SimID)\mcs</MCBaseDir>
+    <NumberMC>1</NumberMC>
+    <NumberParallelProcesses>1</NumberParallelProcesses>
+    <ExperimentDir>$(_EXP_BASE_DIR_)\$(SimID)</ExperimentDir>
+    <EnableProfiling>true</EnableProfiling>
+    <ProfilingWaitingTime>5</ProfilingWaitingTime>
+    <ProfilingPollingDuration>1</ProfilingPollingDuration>
+  </General>
+  <Observers>
+    <Observer module="observer" class="ConsoleObserver"/>
+  </Observers>
+  <Parts/>
+</Experiment>

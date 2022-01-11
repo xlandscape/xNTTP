@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parameters
+        xmlns="urn:xNonTargetTerrestrialPlants"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:xNonTargetTerrestrialPlants model/variant/parameters.xsd"
+>
+    <Project>scenario/schematic-100x100</Project>
+    <SimID>Test Run</SimID>
+</Parameters>

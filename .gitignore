@@ -1,0 +1,7 @@
+.idea/
+scenario/
+analysis/Chromium/
+analysis/.matplotlib/
+analysis/.jupyter/
+analysis/.ipython/
+analysis/.ipynb_checkpoints/
