@@ -46,16 +46,16 @@ xNonTargetTerrestrialPlants requires a 64-bit Windows to run.
 
 ### Installation
 #### From zipfile
-If someone provides you with a zipped version of xNonTerrestrialTargetPlants, simply extract the archive into a folder on your 
+If someone provides you with a zipped version of xNTTP, simply extract the archive into a folder on your 
 hard drive. Simulation data and temporary files will be written to a sub-folder of this folder, so a fast hard-drive 
 with lots of available space is preferable.
 
 #### From Bayer GitLab using Sourcetree
-The newest stable version of xNonTerrestrialTargetPlants can always be found at the Bayer Gitlab. You can access the git 
+The newest stable version of xNTTP can always be found at the Bayer Gitlab. You can access the git 
 repository with any git client, including command-line and graphical clients. The following is a step-by-step guide 
-copy of xNonTerrestrialTargetPlants using the graphical git client *Sourcetree*.
+copy of xNTTP using the graphical git client *Sourcetree*.
 
-1. You need access to the Bayer GitLab xNonTerrestrialTargetPlants repository. Please contact 
+1. You need access to the Bayer GitLab xNTTP repository. Please contact 
    [Thorsten Schad](mailto:thorsten.schad@bayer.com) for a respective account.
 2. Login to the Bayer GitLab and navigate to *User Settings* > *Access Token*
    ([direct link](https://gitlab.bayer.com/-/profile/personal_access_tokens)).
@@ -80,7 +80,7 @@ copy of xNonTerrestrialTargetPlants using the graphical git client *Sourcetree*.
    previously generated api token** as password. Do not use your GitLab login password here. After specifying your 
    credentials, the open dialog should indicate *Authentication OK*. In this case, you can close the dialog.
 9. You can now switch to the *Clone* tab to finally clone the repository. Under *Source Path / URL*, type in the
-   xNonTerrestrialTargetPlants endpoint which is *https://gitlab.bayer.com/aqrisk-landscape/xnttp*. 
+   xNTTP endpoint which is *https://github.com/xlandscape/xNTTP*. 
    After the input field looses focus, you might be asked to select a credential helper. You can select any option 
    here. Maybe you have to provide your username and api token as in the previous step, again. *Sourcetree* should now
    indicate that *This is a Git repository*.
