@@ -1,4 +1,4 @@
-"""Script for documenting the Landscape Model xNonTerrestrialTargetPlants model variant."""
+"""Script for documenting the Landscape Model xNTTP model variant."""
 import os
 import base.documentation
 
@@ -7,6 +7,6 @@ base.documentation.write_contribution_notes(os.path.join(root_folder, "..", ".."
 base.documentation.document_variant(
     os.path.join(root_folder, "..", "variant", "variant_readme_template.md"),
     os.path.join(root_folder, "..", "..", "README.md"),
-    "xNonTerrestrialTargetPlants",
-    "https://gitlab.bayer.com/aqrisk-landscape/xnttp"
+    "xNTTP",
+    "https://github.com/xlandscape/xNTTP"
 )
