@@ -10,3 +10,9 @@ base.documentation.document_variant(
     "xNTTP",
     "https://github.com/xlandscape/xNTTP"
 )
+base.documentation.write_repository_info(
+    os.path.join(root_folder, "..", ".."),
+    os.path.join(root_folder, "..", "..", "repository.json"),
+    os.path.join(root_folder, "..", "..", "..", "versions.json"),
+    "model"
+)
