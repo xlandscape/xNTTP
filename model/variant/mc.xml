@@ -96,9 +96,9 @@
             <FilteringTypes type="list[int]" scales="global"/>
             <FilteringMinWidth type="float" unit="m" scales="global">999</FilteringMinWidth>
             <FilteringFraction type="float" unit="1" scales="global">0</FilteringFraction>
-            <AgDriftBoomHeight scales="global">NA</AgDriftBoomHeight>
-            <AgDriftDropletSize scales="global">NA</AgDriftDropletSize>
-            <AgDriftQuantile type="float" unit="1" scales="global">0</AgDriftQuantile>
+            <AgDriftBoomHeight scales="global">low</AgDriftBoomHeight>
+            <AgDriftDropletSize scales="global">fine</AgDriftDropletSize>
+            <AgDriftQuantile type="float" unit="1" scales="global">0.5</AgDriftQuantile>
         </SprayDrift>
         <TerRQ module="components" class="TerRQ">
             <Threshold type="float" unit="g/ha" scales="global">10</Threshold>
