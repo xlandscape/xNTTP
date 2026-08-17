@@ -22,6 +22,7 @@
     <Composition>
         <LandscapeScenario module="components" class="LandscapeScenario">
             <BaseLandscapeGeometries scales="global">$(:LandscapeScenario)</BaseLandscapeGeometries>
+            <GeoPackageNamespace>urn:xOffFieldSoilRiskLandscapeScenarioPackageInfo</GeoPackageNamespace>
         </LandscapeScenario>
         <PPM module="components" class="PpmCalendar">
             <SimulationStart type="date" scales="global">$(SimulationStart)</SimulationStart>
