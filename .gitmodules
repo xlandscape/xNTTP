@@ -10,3 +10,6 @@ url=https://github.com/xlandscape/XSprayDrift-Component
 [submodule "model/variant/AnalysisObserver"]
     path = model/variant/AnalysisObserver
 url=https://github.com/xlandscape/Analysis-Observer
+[submodule "model/variant/CropProtection"]
+	path = model/variant/CropProtection
+	url = https://github.com/xlandscape/CropProtection-Component
