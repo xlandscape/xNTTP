@@ -1,6 +1,14 @@
 # Changelog
 This list contains all additions, changes and fixes for xNTTP.
 
+## [0.12] - 2026-06-18
+### Added
+- CropProtection component version 1.19 as a submodule;
+- sample crop protection configuration;
+### Changed
+- Replaced PpmCalendar component by CropProtection component
+### Fixed
+
 ## [0.11] - 2026-06-17
 ### Added
 - Geodata schema
