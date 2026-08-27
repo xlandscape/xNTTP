@@ -71,7 +71,7 @@
       </LandUseLandCoverTypes>
       <WindDirection type="int" unit="deg" scales="global">270</WindDirection>
       <SprayDriftModel scales="global">XSprayDrift</SprayDriftModel>
-      <SourceExposure unit="g/ha" scales="global">NA</SourceExposure>
+      <SourceExposure scales="global">1</SourceExposure>
       <RautmannClass scales="global">arable</RautmannClass>
       <AppliedFields>
         <FromOutput component="PPM" output="AppliedFields"/>
