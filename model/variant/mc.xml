@@ -545,5 +545,30 @@
       <SlopeFactor type="float" unit="1" scales="global">-2.75</SlopeFactor>
       <EC50 type="float" unit="g/ha" scales="global">16.39</EC50>
     </Fraction_species_affected_SE_dry_weight>
+    <IbcGrass module="IbcGrass" class="IbcGrass">
+      <ProcessingPath scales="global">$(_MCS_BASE_DIR_)\$(_MC_NAME_)\work\ibc</ProcessingPath>
+      <CellNum type="int" unit="cm" scales="global">173</CellNum>
+      <Tinit type="int" unit="y" scales="global">1</Tinit>
+      <NamePftFile scales="global">$(_MODEL_DIR_)\..\scenario\pft.xlsx</NamePftFile>
+      <SeedsPerType type="int" scales="global">10</SeedsPerType>
+      <MeanBRes type="int" scales="global">90</MeanBRes>
+      <MeanARes type="int" scales="global">100</MeanARes>
+      <Aampl type="float" scales="global">0</Aampl>
+      <AreaEvent type="float" scales="global">0.1</AreaEvent>
+      <GrazProb type="float" scales="global">0.01</GrazProb>
+      <Ncut type="int" scales="global">1</Ncut>
+      <WeekStart type="int" scales="global">1</WeekStart>
+      <HerbDuration type="int" unit="y" scales="global">1</HerbDuration>
+      <RecovDuration type="int" unit="y" scales="global">1</RecovDuration>
+      <EffectModel scales="global">dose-response</EffectModel>
+      <MCruns type="int" scales="global">3</MCruns>
+      <NumberThreads type="int" scales="global">20</NumberThreads>
+      <HerbFactorBiomass type="float" scales="global">0</HerbFactorBiomass>
+      <HerbFactorMortality type="float" scales="global">0</HerbFactorMortality>
+      <HerbFactorSeedlingBiomass type="float" scales="global">0</HerbFactorSeedlingBiomass>
+      <HerbFactorEstablishment type="float" scales="global">0</HerbFactorEstablishment>
+      <HerbFactorSeedSterility type="float" scales="global">0</HerbFactorSeedSterility>
+      <HerbFactorSeedNumber type="float" scales="global">0</HerbFactorSeedNumber>
+    </IbcGrass>
   </Composition>
 </MCRun>

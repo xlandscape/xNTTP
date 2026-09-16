@@ -13,3 +13,6 @@ url=https://github.com/xlandscape/Analysis-Observer
 [submodule "model/variant/CropProtection"]
 	path = model/variant/CropProtection
 	url = https://github.com/xlandscape/CropProtection-Component
+[submodule "model/variant/IbcGrass"]
+	path = model/variant/IbcGrass
+	url = https://github.com/xlandscape/IbcGrass-Component
