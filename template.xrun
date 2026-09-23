@@ -15,8 +15,8 @@
   <InCropBuffer>0</InCropBuffer>
   <SprayDriftModel>90thRautmann</SprayDriftModel>
   <WindDirection>270</WindDirection>
-  <PatchCenterX>5660687.5 5660737.5</PatchCenterX>
-  <PatchCenterY>353915.5 353915.5</PatchCenterY>
+  <PatchCenterX>5660687.5 5660737.5 5660739.5 5660741.5 5660746.5</PatchCenterX>
+  <PatchCenterY>353915.5 353915.5 353915.5 353915.5 353915.5</PatchCenterY>
   <PFT>$(_MODEL_DIR_)\..\ibc\pft.xlsx</PFT>
   <SeedsPerType>10</SeedsPerType>
 </Parameters>

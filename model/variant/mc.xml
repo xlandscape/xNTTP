@@ -760,8 +760,8 @@
       <AppRate>
         <FromOutput component="SprayDrift" output="Exposure"/>
       </AppRate>
-      <PatchCenterX type="list[float]" scales="global">$(PatchCenterX)</PatchCenterX>
-      <PatchCenterY type="list[float]" scales="global">$(PatchCenterY)</PatchCenterY>
+      <PatchCenterX type="list[float]" scales="global" unit="m">$(PatchCenterX)</PatchCenterX>
+      <PatchCenterY type="list[float]" scales="global" unit="m">$(PatchCenterY)</PatchCenterY>
     </IbcGrass>
   </Composition>
 </MCRun>
