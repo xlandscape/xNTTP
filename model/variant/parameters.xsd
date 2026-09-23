@@ -22,6 +22,11 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
+        <xsd:element name="SimulateNonIbcEffects">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:boolean"/>
+          </xsd:simpleType>
+        </xsd:element>
         <xsd:element name="SimulationFirstYear">
           <xsd:simpleType>
             <xsd:restriction base="xsd:int">
@@ -85,12 +90,12 @@
         </xsd:element>
         <xsd:element name="PatchCenterX">
           <xsd:simpleType>
-            <xsd:restriction base="xsd:float"/>
+            <xsd:list itemType="xsd:float"/>
           </xsd:simpleType>
         </xsd:element>
         <xsd:element name="PatchCenterY">
           <xsd:simpleType>
-            <xsd:restriction base="xsd:float"/>
+            <xsd:list itemType="xsd:float"/>
           </xsd:simpleType>
         </xsd:element>
         <xsd:element name="PFT">

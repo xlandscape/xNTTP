@@ -6,6 +6,7 @@
 >
   <Project>scenario/schematic-100x100</Project>
   <SimID>Test Run</SimID>
+  <SimulateNonIbcEffects>false</SimulateNonIbcEffects>
   <SimulationFirstYear>2015</SimulationFirstYear>
   <SimulationLastYear>2018</SimulationLastYear>
   <ApplicationFirstYear>2016</ApplicationFirstYear>
@@ -14,8 +15,8 @@
   <InCropBuffer>0</InCropBuffer>
   <SprayDriftModel>90thRautmann</SprayDriftModel>
   <WindDirection>270</WindDirection>
-  <PatchCenterX>5660737.5 </PatchCenterX>
-  <PatchCenterY>353915.5</PatchCenterY>
+  <PatchCenterX>5660687.5 5660737.5</PatchCenterX>
+  <PatchCenterY>353915.5 353915.5</PatchCenterY>
   <PFT>$(_MODEL_DIR_)\..\ibc\pft.xlsx</PFT>
   <SeedsPerType>10</SeedsPerType>
 </Parameters>
