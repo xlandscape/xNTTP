@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Parameters
-        xmlns="urn:xNonTargetTerrestrialPlants"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="urn:xNonTargetTerrestrialPlants model/variant/parameters.xsd"
+  xmlns="urn:xNonTargetTerrestrialPlants"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:xNonTargetTerrestrialPlants model/variant/parameters.xsd"
 >
-    <Project>scenario/schematic-100x100</Project>
-    <SimID>Test Run</SimID>
+  <Project>scenario/schematic-100x100</Project>
+  <SimID>Test Run</SimID>
+  <SimulationFirstYear>2015</SimulationFirstYear>
+  <SimulationLastYear>2018</SimulationLastYear>
+  <ApplicationFirstYear>2016</ApplicationFirstYear>
+  <ApplicationLastYear>2017</ApplicationLastYear>
+  <SprayDriftModel>90thRautmann</SprayDriftModel>
+  <WindDirection>270</WindDirection>
+  <PatchCenterX>5660737.5</PatchCenterX>
+  <PatchCenterY>353915.5</PatchCenterY>
+  <PFT>$(_MODEL_DIR_)\..\ibc\pft.xlsx</PFT>
+  <SeedsPerType>10</SeedsPerType>
 </Parameters>

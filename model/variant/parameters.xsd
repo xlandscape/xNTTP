@@ -1,28 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema
-        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="urn:xNonTargetTerrestrialPlants"
-        xmlns="urn:xNonTargetTerrestrialPlants"
-        elementFormDefault="qualified"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="urn:xNonTargetTerrestrialPlants"
+  xmlns="urn:xNonTargetTerrestrialPlants"
+  elementFormDefault="qualified"
 >
-    <xsd:element name="Parameters">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="Project">
-                    <xsd:simpleType>
-                        <xsd:restriction base="xsd:anyURI">
-                            <xsd:minLength value="3"/>
-                        </xsd:restriction>
-                    </xsd:simpleType>
-                </xsd:element>
-                <xsd:element name="SimID">
-                    <xsd:simpleType>
-                        <xsd:restriction base="xsd:string">
-                            <xsd:minLength value="3"/>
-                        </xsd:restriction>
-                    </xsd:simpleType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+  <xsd:element name="Parameters">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Project">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:anyURI">
+              <xsd:minLength value="3"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SimID">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:minLength value="3"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SimulationFirstYear">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1900"/>
+              <xsd:maxInclusive value="2200"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SimulationLastYear">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1900"/>
+              <xsd:maxInclusive value="2200"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ApplicationFirstYear">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1900"/>
+              <xsd:maxInclusive value="2200"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ApplicationLastYear">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1900"/>
+              <xsd:maxInclusive value="2200"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SprayDriftModel">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:pattern value="XSprayDrift|90thRautmann|AgDrift"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="WindDirection">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="-1"/>
+              <xsd:maxInclusive value="359"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="PatchCenterX">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:float"/>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="PatchCenterY">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:float"/>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="PFT">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string"/>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SeedsPerType">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="0"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
 </xsd:schema>
