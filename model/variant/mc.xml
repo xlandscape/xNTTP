@@ -34,9 +34,9 @@
       <TargetLandUseLandCoverType>
         <FromOutput component="LandscapeScenario" output="target_type"/>
       </TargetLandUseLandCoverType>
-      <ApplicationRate type="float" unit="g/ha" scales="global">7</ApplicationRate>
+      <ApplicationRate type="float" unit="g/ha" scales="global">$(ApplicationRate)</ApplicationRate>
       <TechnologyDriftReduction type="float" unit="1" scales="global">0</TechnologyDriftReduction>
-      <InCropBuffer type="float" unit="m" scales="global">0</InCropBuffer>
+      <InCropBuffer type="float" unit="m" scales="global">$(InCropBuffer)</InCropBuffer>
       <InFieldMargin type="float" unit="m" scales="global">0</InFieldMargin>
       <FieldGeometries type="list[bytes]">
         <FromOutput component="LandscapeScenario" output="Geometries"/>
