@@ -50,6 +50,13 @@ The example below shows the structure of a parameter file:
 `PatchCenterX` and `PatchCenterY` must contain the same number of coordinates in corresponding order. Simulation years
 should enclose the application period and must be ordered from first to last year.
 
+Use [PFT Preparation](pft-preparation.md) to create a case-specific workbook from endpoint dose-response studies. For
+the generated GLY case-study workbook, set:
+
+```xml
+<PFT>$(_MODEL_DIR_)\..\ibc\pft_gly_case_study.xlsx</PFT>
+```
+
 ## IBCgrass Defaults
 
 Additional IBCgrass settings are currently model defaults in `model/variant/mc.xml`, rather than user parameters in

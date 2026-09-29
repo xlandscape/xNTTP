@@ -29,5 +29,10 @@
 - **Initialisation period**: Simulation period used to establish the community before evaluating treatment effects.
 - **Patch centre**: Coordinate at which xNTTP samples the exposure grid for an IBCgrass simulation.
 - **Plant functional type (PFT)**: Group of plants represented by a common set of ecological and life-history traits.
+- **Random PFT sensitivity**: Treatment of the unknown mapping between regulatory test-species responses and grassland
+  PFTs. In the current xNTTP workflow, EC50 and slope are sampled independently from endpoint-specific intervals for
+  every PFT and repetition; this is not literal selection of one complete observed test-species curve.
 - **Recovery period**: Period after herbicide treatment used to evaluate subsequent community development.
 - **Seeds per type**: Annual seed input for each plant functional type, representing immigration into the community.
+- **Test species**: Terrestrial non-target plant species measured in an ecotoxicology study and used as a surrogate
+  source of dose-response information; it is not automatically equivalent to an IBCgrass PFT.

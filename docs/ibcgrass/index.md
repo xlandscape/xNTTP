@@ -15,6 +15,12 @@ IBCgrass represents plant communities through **plant functional types (PFTs)** 
 competition for above-ground and below-ground resources. The xNTTP integration exposes settings for establishment,
 management, herbicide effects, recovery, repetitions, and parallel processing.
 
+PFTs describe ecological strategies in the simulated grassland; they are not the regulatory test species used in an
+ecotoxicology study. There is therefore normally no evidence-based one-to-one correspondence between a PFT and a
+tested species' dose-response function. The `random` sensitivity option represents this uncertain transfer from the
+set of test-species responses to the modeled PFTs. See [PFT Preparation](pft-preparation.md) for the biological
+interpretation and the exact sampling implemented in xNTTP.
+
 ## Integration Boundary
 
 The xNTTP run controls:
