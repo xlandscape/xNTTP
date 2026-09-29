@@ -11,7 +11,9 @@
   <SimulationLastYear>2018</SimulationLastYear>
   <ApplicationFirstYear>2016</ApplicationFirstYear>
   <ApplicationLastYear>2017</ApplicationLastYear>
+  <ApplicationWindow>03-14 to 03-14</ApplicationWindow>
   <ApplicationRate>1800</ApplicationRate>
+  <TechnologyDriftReduction>0</TechnologyDriftReduction>
   <InCropBuffer>0</InCropBuffer>
   <SprayDriftModel>90thRautmann</SprayDriftModel>
   <WindDirection>270</WindDirection>
@@ -19,4 +21,6 @@
   <PatchCenterY>353915.5 353915.5 353915.5 353915.5 353915.5</PatchCenterY>
   <PFT>$(_MODEL_DIR_)\..\ibc\pft.xlsx</PFT>
   <SeedsPerType>10</SeedsPerType>
+  <NumberThreads>20</NumberThreads>
+  <IbcMCRuns>3</IbcMCRuns>
 </Parameters>

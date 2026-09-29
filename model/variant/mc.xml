@@ -24,7 +24,7 @@
     <PPM module="components" class="PpmCalendar">
       <SimulationStart type="date" scales="global">$(ApplicationFirstYear)-01-01</SimulationStart>
       <SimulationEnd type="date" scales="global">$(ApplicationLastYear)-12-31</SimulationEnd>
-      <ApplicationWindows scales="global">03-14 to 03-14</ApplicationWindows>
+      <ApplicationWindows scales="global">$(ApplicationWindow)</ApplicationWindows>
       <Fields>
         <FromOutput component="LandscapeScenario" output="FeatureIds"/>
       </Fields>
@@ -35,7 +35,9 @@
         <FromOutput component="LandscapeScenario" output="target_type"/>
       </TargetLandUseLandCoverType>
       <ApplicationRate type="float" unit="g/ha" scales="global">$(ApplicationRate)</ApplicationRate>
-      <TechnologyDriftReduction type="float" unit="1" scales="global">0</TechnologyDriftReduction>
+      <TechnologyDriftReduction type="float" unit="1" scales="global">
+        $(TechnologyDriftReduction)
+      </TechnologyDriftReduction>
       <InCropBuffer type="float" unit="m" scales="global">$(InCropBuffer)</InCropBuffer>
       <InFieldMargin type="float" unit="m" scales="global">0</InFieldMargin>
       <FieldGeometries type="list[bytes]">
@@ -749,8 +751,8 @@
       <WeekStart type="int" scales="global">1</WeekStart>
       <RecovDuration type="int" unit="y" scales="global">1</RecovDuration>
       <EffectModel scales="global">dose-response</EffectModel>
-      <MCruns type="int" scales="global">3</MCruns>
-      <NumberThreads type="int" scales="global">20</NumberThreads>
+      <MCruns type="int" scales="global">$(IbcMCRuns)</MCruns>
+      <NumberThreads type="int" scales="global">$(NumberThreads)</NumberThreads>
       <HerbFactorBiomass type="float" scales="global">0</HerbFactorBiomass>
       <HerbFactorMortality type="float" scales="global">0</HerbFactorMortality>
       <HerbFactorSeedlingBiomass type="float" scales="global">0</HerbFactorSeedlingBiomass>

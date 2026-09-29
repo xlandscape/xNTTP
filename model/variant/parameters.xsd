@@ -59,10 +59,25 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
+        <xsd:element name="ApplicationWindow">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:pattern value="\d{2}-\d{2} to \d{2}-\d{2}"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
         <xsd:element name="ApplicationRate">
           <xsd:simpleType>
             <xsd:restriction base="xsd:int">
               <xsd:minInclusive value="0"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="TechnologyDriftReduction">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:float">
+              <xsd:minInclusive value="0"/>
+              <xsd:maxInclusive value="1"/>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
@@ -107,6 +122,20 @@
           <xsd:simpleType>
             <xsd:restriction base="xsd:int">
               <xsd:minInclusive value="0"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="NumberThreads">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="IbcMCRuns">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:int">
+              <xsd:minInclusive value="1"/>
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
