@@ -5,3 +5,5 @@ analysis/.matplotlib/
 analysis/.jupyter/
 analysis/.ipython/
 analysis/.ipynb_checkpoints/
+ibc/*
+!ibc/pft.xlsx
